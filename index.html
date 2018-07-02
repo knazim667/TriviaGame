@@ -1,0 +1,158 @@
+<!Doctype HTML>
+<html>
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Trivia Game</title>
+       
+        <!-- Link Jquery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+
+       <!-- Link Style Css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+       
+        <!-- Link Bootstrap -->
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    
+    
+    </head>
+   
+    <body>
+        
+        <!-- Start The Game -->
+        
+        <div id="start_container">
+        
+            
+                <!-- Static Heading -->
+                <div class="col-lg-12"><h1 class="display-3"><strong>Totally Trivial Trivia!</strong></h1>
+                
+                </div>
+                
+                <!-- Game Start Button -->
+                <button type="button" class="btn btn-default btn-lg" id="start">START</button>
+                
+        </div>
+    
+        <div id="mid_container">
+            
+            <!-- Static Heading -->
+            
+            <div class="col-lg-12"><h1 class="display-3"><strong>Totally Trivial Trivia!</strong></h1>
+                
+            </div>
+             
+            <!-- Hide Paragraph For Timer -->
+                <br>
+                <h2 id="time"></h2>
+                <br>
+               
+            
+            <!-- Game Question -->
+            
+            <h5>Q.1:- In the year 1900 in the U.S. what were the most popular first names given to boy and girl babies?</h5>
+            
+            <!-- John And Marry -->
+               
+                <input type="radio" name="q1" value=" William and Elizabeth ">William and Elizabeth
+                 <input type="radio" name="q1" value=" Joseph and Catherine ">Joseph and Catherine
+                <input type="radio" name="q1" value=" John and Mary ">John and Mary
+                <input type="radio" name="q1" value=" George and Anne ">George and Anne
+           
+            <br><br>
+            
+            <h5>Q.2:- When did the Liberty Bell get its name?</h5>
+            
+            <!-- in the 19th Century -->
+               
+                <input type="radio" name="q2" value=" when it was made, in 1701">when it was made, in 1701
+                <input type="radio" name="q2" value=" when it rang on July 4, 1776 ">when it rang on July 4, 1776
+                <input type="radio" name="q2" value=" in the 19th century ">in the 19th century
+                <input type="radio" name="q2" value=" none of the above ">none of the above
+           
+            <br><br>
+            
+            <h5>Q.3:- In the Roy Rogers -Dale Evans Museum, you will find Roy and Dales stuffed horses. Roy's horse was named Trigger, which was Dales horse?</h5>
+            
+            <!-- ButterMilk -->
+               
+                <input type="radio" name="q3" value="Buttermilk"> Buttermilk
+                <input type="radio" name="q3" value=" Daisy"> Daisy
+                <input type="radio" name="q3" value=" Scout "> Scout
+                <input type="radio" name="q3" value=" Tulip"> Tulip
+           
+           <br><br>
+            
+            <h5>Q.4:- The Daniel Boon museum at the home where he died can best be described how?</h5>
+
+            
+            <!-- A four story georgian-style home -->
+               
+                <input type="radio" name="q4" value=" a log cabin in Kentuck"> a log cabin in Kentuck
+                <input type="radio" name="q4" value=" a two-story clapboard house in Tennessee"> a two-story clapboard house in Tennessee
+                <input type="radio" name="q4" value=" a four-story Georgian-style home in Missour "> a four-story Georgian-style home in Missour
+                <input type="radio" name="q4" value=" a three story brick house in Arkansas"> a three story brick house in Arkansas
+            
+            
+           <br><br>
+            
+             <h5>Q.5:- Which of the following items was owned by the fewest U.S. homes in 1990?</h5>
+
+            
+            <!-- Compact disk Player -->
+               
+                <input type="radio" name="q5" value=" home computer"> home computer
+                <input type="radio" name="q5" value="compact disk player">  compact disk player
+                <input type="radio" name="q5" value=" Cordless Phone"> Cordless Phone
+                <input type="radio" name="q5" value=" Dishwasher "> Dishwasher
+            <br>
+            <br>
+            
+            <h5>Q.6:- Who holds the record for the most victories in a row on the professional golf tour?</h5>
+
+            
+            <!-- Byron Nelson -->
+               
+                <input type="radio" name="q6" value=" Jack Nicklaus"> Jack Nicklaus
+                <input type="radio" name="q6" value=" Arnold Palmer">  Arnold Palmer
+                <input type="radio" name="q6" value="Byron Nelson"> Byron Nelson
+                <input type="radio" name="q6" value=" Ben Hogan"> Ben Hogan
+           <br>
+           <br>
+           
+           <button type="button" class="btn btn-default btn-lg" id="Done">Done</button>
+           
+        
+        </div>
+        
+        
+        <!-- End of the Game -->
+        
+        <div id="end_container">
+        
+            <div class="col-lg-12"><h1 class="display-3"><strong>Totally Trivial Trivia!</strong></h1>
+                
+            </div>
+            <br>
+            
+            <div id="alldone"><h1>All Done!</h1></div>
+            <br><br>
+            
+            <div id="correctAnswerd"><h3>Correct Answerd :</h3></div>
+            <br>
+            <div id="WrongAnswerd"><h3>Wrong Answerd :</h3></div>
+            <br>
+            <div id="unAnswerd"><h3>UnAnswerd :</h3></div>
+            
+        </div>
+    
+    
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    </body>
+
+</html>
