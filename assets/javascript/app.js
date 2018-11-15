@@ -176,7 +176,26 @@ $(document).ready(function() {
         $("#end_container").show();
         
     }
+
+    $("#Start-over").on("click", function() {
+       
+        //after on click function need the End container Hide and Mid container Show
+          
+          $("#end_container").hide(); 
+          $("#start_container").show();
+          
+          // Start New game
+          startCountdown();
+          return newGame();
+      });
    
-    
+      function newGame(){
+        $('#correctAnswers').empty();
+        $('#WrongAnswers').empty();
+        $('#unAnswered').empty();
+        correctAnswer = 0;
+        wrongtAnswer = 0;
+        unAnswered = 0;
+    }
 });
     
