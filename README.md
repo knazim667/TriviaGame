@@ -10,3 +10,23 @@ After all of the questions were finished, the final scoreboard of how well you d
 
 ## Getting Started
 
+[Play Here](https://knazim667.github.io/TriviaGame/).
+
+## Technology Used
+
+- Bootstrap
+- Jquery
+
+## Build With
+
+- Visual Studio Code
+- Bootstrap WireFrame
+
+## ScreenShot
+
+![Image](https://i.imgur.com/3H4lqAm.png)
+Start
+![image](https://i.imgur.com/n4UbUgJ.png)
+Question
+![image](https://i.imgur.com/PsqkGVY.png)
+Scorred
