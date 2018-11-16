@@ -11,7 +11,7 @@ After all of the questions were finished, the final scoreboard of how well you d
 ## Getting Started
 
 [Play Here](https://knazim667.github.io/TriviaGame/).
-
+PsqkGVY.png
 ## Technology Used
 
 - Bootstrap
@@ -28,5 +28,5 @@ After all of the questions were finished, the final scoreboard of how well you d
 Start
 ![image](https://i.imgur.com/n4UbUgJ.png)
 Question
-![image](https://i.imgur.com/PsqkGVY.png)
-Scorred
+![image](https://i.imgur.com/0pQnuW3.png)
+Scorred with Start over again
